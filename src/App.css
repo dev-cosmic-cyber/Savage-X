@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 40px 32px 32px 32px;
+  max-width: 900px;
+  height: 900px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.486);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #eebad1;
+}
+
+h1, h2, h3 {
+  color: #d81b60;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}

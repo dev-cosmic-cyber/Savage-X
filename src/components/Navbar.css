@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 192, 227, 0.94);
+  padding: 10px 24px;
+  border-bottom: 3px solid #d81b60;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d81b60;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.navbar-links a {
+  margin: 0 12px;
+  color: #843b62;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #d81b60;
+  text-decoration: underline;
+}
