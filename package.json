@@ -1,11 +1,15 @@
 {
   "name": "ultraelite-savage-portfolio",
+  "name": "ultraelite-portfolio",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
@@ -23,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+ },
+  "overrides": {
+  "rimraf": "^4.0.0",
+  "glob": "^9.0.0"
+ }
 }
